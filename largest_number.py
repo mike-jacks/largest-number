@@ -11,7 +11,7 @@ class LargestNumberCalculator:
 
 def main():
     largest_number_calculator = LargestNumberCalculator()
-    largest_number = largest_number_calculator(3, 7, 6)
+    largest_number = largest_number_calculator.find_largest_number(3, 7, 6)
     print(largest_number)
 
 if __name__ == "__main__":
